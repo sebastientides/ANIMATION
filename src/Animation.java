@@ -30,8 +30,8 @@ public class Animation {
 				movieTime=0;
 				sceneIndex=0;
 			}
-			while(movieTime>getScene(sceneIndex).endTime);
-			sceneIndex++;
+			while(movieTime>getScene(sceneIndex).endTime){
+			sceneIndex++;}
 		}
 	}
 	//get animations current scene/image
